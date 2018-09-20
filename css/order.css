@@ -1,0 +1,243 @@
+body{
+	background: linear-gradient(to right, #d03af5, #ee3fba);
+}
+
+.order{
+	width: 100%;
+	/*height: 5rem;*/
+	margin-top: 0.64rem;
+	/*background: black;*/
+}
+
+.res-name{
+	width: 100%;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	text-align: center;
+	font-size: 0.3rem;
+	color: #fff;
+	margin-bottom: 0.4rem;
+}
+
+.ord-con{
+	width: 7.02rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	margin: 0 auto;
+	/*padding: 0 0.24rem;*/
+	padding: 0.2rem 0;
+	box-sizing: border-box;
+}
+
+.ord-con .item{
+	width: 7.02rem;
+	height: 1.5rem;
+	/*background: red;*/
+	/*background: #fff;*/
+}
+
+.ord-con .split{
+	/*height: 0.04rem;*/
+	/*width: 6.6643m;*/
+	border-top: 0.04rem dotted #CACACA;
+	margin: 0.2rem 0.78rem 0.2rem 0.36rem;
+}
+
+.price{
+	width: 100%;
+	height: 0.72rem;
+	/*background: red;*/
+	margin-top: 0.3rem;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+}
+
+.price .left{
+	height: 100%;
+	/*width: 1rem;*/
+	float: left;
+	/*background: aqua;*/
+}
+
+.price .left .text1{
+	height: 0.32rem;
+	line-height: 0.32rem;
+	font-size: 0.24rem;
+	text-align: left;
+	color: #fff;
+}
+
+.price .left .text2{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.3rem;
+	text-align: left;
+	color: #fff;
+}
+
+.price span{
+	font-size: 0.18rem;
+}
+
+.price .right{
+	height: 100%;
+	/*width: 1rem;*/
+	float: right;
+	/*background: #00FFFF;*/
+}
+
+.price .right .text2{
+	height: 0.32rem;
+	line-height: 0.32rem;
+	font-size: 0.24rem;
+	text-align: right;
+	color: #fff;
+}
+
+.price .right .text1{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.3rem;
+	text-align: right;
+	color: #fff;
+}
+
+.od-info{
+	width: 7.02rem;
+	/*height: 5rem;*/
+	background: #fff;
+	border-radius: 0.2rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+	/*padding: 0 0.24rem;*/
+	padding: 0.2rem 0;
+	box-sizing: border-box;
+}
+
+.od-info .item{
+	overflow: hidden;
+}
+
+.od-info .item>div{
+	float: left;
+}
+
+.od-info .item-text .text1{
+	float: left;
+}
+
+.od-info .item-text .text2{
+	float: right;
+}
+
+.od-info .split{
+	/*height: 0.04rem;*/
+	/*width: 6.6643m;*/
+	border-top: 0.04rem dotted #CACACA;
+	margin: 0.1rem 0.78rem 0.1rem 0.36rem;
+}
+
+.od-info .circle-box{
+	position: relative;
+	width: 0.5rem;
+	height: 0.3rem;
+}
+
+.od-info .circle{
+	position: absolute;
+	top: 0.08rem;
+	left: 0.23rem;
+	border-radius: 50%;
+	width: 0.15rem;
+	height: 0.15rem;
+	box-sizing: border-box;
+}
+
+
+.item1 .circle{
+	background: rgb(208,58,245);
+	border: 0.03rem solid rgba(0,0,0,.1);
+}
+
+.item2 .circle{
+	background: rgb(63,167,247);
+	border: 0.03rem solid rgba(0,0,0,.1);
+}
+
+.item3 .circle{
+	background: rgb(38,180,75);
+	border: 0.03rem solid rgba(0,0,0,.1);
+}
+
+.item4 .circle{
+	background: rgb(208,58,245);
+	border: 0.03rem solid rgba(0,0,0,.1);
+}
+
+.item5 .circle{
+	background: rgb(63,167,247);
+	border: 0.03rem solid rgba(0,0,0,.1);
+}
+
+.item6 .circle{
+	background: rgb(38,180,75);
+	border: 0.03rem solid rgba(0,0,0,.1);
+}
+
+.item7 .circle{
+	background: rgb(208,58,245);
+	border: 0.03rem solid rgba(0,0,0,.1);
+}
+
+.item-text{
+	width: 6rem;
+	font-size: 0.24rem;
+}
+
+.item-text .text1{
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+}
+
+.item-text .text2{
+	font-size: 0.18rem;
+	line-height: 0.24rem;
+	color: rgb(208,58,245);
+}
+
+.item-text .text3{
+	float: none;
+}
+
+.item1 .item-text .text1{
+	float: none;
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+}
+
+
+.item2 .text1{
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+}
+
+.item2 .text2{
+	font-size: 0.24rem;
+	line-height: 0.32rem;
+}
+
+.item4 .item-text .text1{
+	float: none;
+}
+
+.od-info .confirm{
+	margin: 0.3rem auto 0;
+	width: 3.4rem;
+	height: 0.76rem;
+	line-height: 0.76rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.3rem;
+	background: linear-gradient(to right, #d03af5, #ee3fba);
+	border-radius: 0.38rem;
+}
