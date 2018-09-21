@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	font-style: normal;
+	font-family: "microsoft yahei";
 }
 
 a{
@@ -18,13 +19,13 @@ h1, h2, h3, h4, h5, h6{
 
 @font-face {
   font-family: 'iconfont';  /* project id 845475 */
-  src: url('//at.alicdn.com/t/font_845475_4f0v8qe6fk4.eot');
-  src: url('//at.alicdn.com/t/font_845475_4f0v8qe6fk4.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_845475_4f0v8qe6fk4.woff') format('woff'),
-  url('//at.alicdn.com/t/font_845475_4f0v8qe6fk4.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_845475_4f0v8qe6fk4.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_845475_z65dlbcjakb.eot');
+  src: url('//at.alicdn.com/t/font_845475_z65dlbcjakb.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_845475_z65dlbcjakb.woff') format('woff'),
+  url('//at.alicdn.com/t/font_845475_z65dlbcjakb.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_845475_z65dlbcjakb.svg#iconfont') format('svg');
 }
 
 .iconfont{
-	font-family: iconfont;
+	font-family: "iconfont";
 }

@@ -1,0 +1,87 @@
+.header{
+	width: 100%;
+	height: 2.8rem;
+	position: relative;
+}
+
+.head-bkg{
+	width: 100%;
+	height: 100%;
+}
+
+.head-bkg img{
+	widows: 100%;
+	height: 100%;
+}
+
+.avator{
+	position: absolute;
+	left: 50%;
+	top: 1.92rem;
+	margin-left: -0.88rem;
+	width: 1.76rem;
+	height: 1.76rem;
+	line-height: 1.76rem;
+	text-align: center;
+	font-size: 0.64rem;
+	background: rgba(208,58,244,.8);
+	border-radius: 50%;
+}
+
+.des{
+	width: 100%;
+	height: 1.2rem;
+	/*background: red;*/
+	margin-top: 2rem;
+	margin-bottom: 0.46rem;
+}
+
+.des>div{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0.36rem;
+	color: rgb(207,58,245);
+}
+
+.des .text2{
+	font-size: 0.3rem;
+	color: rgba(238,62,186,.5);
+}
+
+.des .text3{
+	font-size: 0.24rem;
+	color: rgb(207,58,245);
+}
+
+.login{
+	width: 100%;
+	height: 3.9rem;
+}
+
+.login-con{
+	width: 5.54rem;
+	height: 3.9rem;
+	margin: 0 auto;
+	border-radius: 0.15rem;
+	background: #fff;
+	box-shadow: 0 0 0.05rem 0 rgba(0,0,0,0.1);
+	position: relative;
+}
+
+.login-con>div{
+	width: 5.06rem;
+	height: 1.42rem;
+	border-bottom: 0.03rem solid rgba(0,0,0,.05);
+	margin: 0 auto;
+}
+
+.login-con .log-but{
+	position: absolute;
+	left: 50%;
+	margin-left: -1.25rem;
+	bottom: -0.38rem;
+	width: 2.5rem;
+	height: 0.76rem;
+	border-radius: 0.38rem;
+	background: rgb(221,221,221);
+}

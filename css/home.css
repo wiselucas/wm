@@ -117,7 +117,33 @@
 .nav-list>li{
 	width: 1.75rem;
 	height: 1.4rem;
-	background: #EE3FBA;
+	/*background: #EE3FBA;*/
+}
+
+.nav-list>li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background: #00FFFF;*/
+}
+
+.nav-list .iconfont{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.2rem;
+	font-size: 0.7rem;
+	width: 0.75rem;
+	height: 0.75rem;
+	color: #d03af5;
+}
+
+.nav-list span{
+	display: block;
+	font-size: 0.28rem;
+	margin: 0 auto;
+	line-height: 0.3rem;
+	text-align: center;
+	color: #000;
 }
 
 .popular{
@@ -158,6 +184,42 @@
 	background: #00FFFF;
 	background: #fff;
 	box-shadow: 0 0 0.05rem 0 rgba(0,0,0,0.1);
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+	overflow: hidden;
+}
+
+.pu-con .text{
+	font-size: 0.3rem;
+	color: #000;
+	line-height: 0.45rem;
+	text-align: left;
+	margin-top: 0.1rem;
+}
+
+.pu-con .price{
+	font-size: 0.24rem;
+	color: rgb(253,35,220);
+	line-height: 0.45rem;
+	
+}
+
+.pu-con .item1{
+	float: right;
+	height: 100%;
+	width: 50%;
+	background-repeat: no-repeat;
+	background-position: 1.8rem -0.8rem;
+	background-image: url(../img/pu-1.png);
+}
+
+.pu-con .item2{
+	float: right;
+	height: 100%;
+	width: 50%;
+	background-repeat: no-repeat;
+	background-position: 1.8rem -0.8rem;
+	background-image: url(../img/pu-2.png);
 }
 
 .merchant{
@@ -184,10 +246,12 @@
 
 .me-con{
 	margin-top: 0.24rem;
+	overflow: hidden;
+	padding-bottom: 1rem;
 }
 
 .me-con>div{
-	width: 6.42rem;
+	width: 6.6rem;
 	height: 2.1rem;
 	/*background: #D03AF5;*/
 	margin-left: 0.24rem;
@@ -195,7 +259,67 @@
 	border-radius: 0.1rem;
 	background: #fff;
 	box-shadow: 0 0 0.05rem 0 rgba(0,0,0,0.1);
+	/*overflow: hidden;*/
+	float: left;
 }
+
+.me-con .left{
+	width: 3.08rem;
+	height: 1.88rem;
+	border-radius: 0.15rem;
+	background: green;
+	margin-top: 0.11rem;
+	float: left;
+}
+
+.me-con .left img{
+	width: 100%;
+	height: 100%;
+}
+
+.me-con .right{
+	width: 3.4rem;
+	height: 1.88rem;
+	float: left;
+	margin-top: 0.11rem;
+	margin-left: 0.1rem;
+}
+
+.me-con .right h3{
+	display: block;
+	font-size: 0.36rem;
+	color: #000;
+}
+
+.me-con .split{
+	width: 2.65rem;
+	border-top: 0.06rem dotted rgba(0, 0, 0, .5);
+	margin: 0.2rem 0;
+}
+
+.me-con .des{
+	font-size: 0.24rem;
+	color: rgba(0,0,0,.8);
+}
+
+.me-con .redu{
+	display: flex;
+	margin-top: 0.3rem;
+}
+
+.me-con .redu>div{
+	width: 1.2rem;
+	height: 0.26rem;
+	border-radius: 0.13rem;
+	border: 0.01rem solid rgb(238,62,186);
+	box-sizing: border-box;
+	margin-right: 0.2rem;
+	font-size: 0.18rem;
+	text-align: center;
+	color: rgb(237,50,112);
+	/*padding: 0 0.1rem;*/
+}
+
 
 .footer{
 	position: fixed;
@@ -210,4 +334,31 @@
 	height: 100%;
 	background: #fff;
 	box-shadow: 0 -0.03rem 0.05rem 0 rgba(0,0,0,0.1);
+	box-sizing: border-box;
+	padding: 0 0.9rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-con .item{
+	width: 0.5rem;
+	height: 100%;
+	/*background: greenyellow;*/
+}
+
+.footer-con .item i{
+	font-size: 0.5rem;
+	display: block;
+	color: #787878;
+	margin-top: 0.12rem;
+}
+
+.footer .item .text{
+	font-size: 0.18rem;
+	color: #000;
+	text-align: center;
+}
+
+.footer .item .active{
+	color: rgb(215,59,230);
 }

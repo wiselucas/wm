@@ -1,0 +1,250 @@
+.root{
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.head{
+	width: 100%;
+	height: 0.94rem;
+	background: linear-gradient(to right, rgb(207,58,245), rgb(238,62,186));
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	box-sizing: border-box;
+	font-size: 0.3rem;
+	line-height: 0.94rem;
+}
+
+.head .left i{
+	color: #fff;
+}
+
+.head .right{
+	color: #fff;
+}
+
+.shop-info{
+	width: 100%;
+	/*height: 4.5rem;*/
+	/*background: red;*/
+	overflow: hidden;
+	border-bottom: 2px solid rgb(207,58,245);
+}
+
+.shop-logo{
+	width: 1.42rem;
+	height: 1.42rem;
+	background-color: green;
+	border-radius: 0.1rem;
+	margin: 0.5rem auto 0;
+}
+
+.shop-des{
+	width: 100%%;
+	height: 2.1rem;
+	/*background: yellow;*/
+	margin-top: 0.5rem;
+	overflow: hidden;
+}
+
+.shop-name{
+	width: 3.8rem;
+	margin: 0 auto;
+	font-size: 0.36rem;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.shop-name span{
+	margin-right: 0.36rem;
+}
+
+.shop-info .split{
+	margin: 0.24rem auto;
+	width: 3.3rem;
+	border-top: 0.05rem dotted gray;
+}
+
+.food-detail{
+	text-align: center;
+	font-size: 0.3rem;
+	color: #000;
+}
+
+.food-detail .distance{
+	display: inline;
+	color: rgb(242,75,141);
+	border-radius: 0.22rem;
+	border: 0.02rem solid rgb(207,58,245);
+	padding: 0 0.16rem;
+	box-sizing: border-box;
+}
+
+.food-detail span{
+	margin: 0 0.1rem;
+}
+
+.food-detail i{
+	color: rgba(0,0,0,.5);
+}
+
+.eva{
+	font-size: 0.3rem;
+	color: rgb(242,57,131);
+	text-align: center;
+	margin-top: 0.1rem;
+}
+
+.eva span{
+	padding-left: 0.16rem;
+}
+
+.prompt{
+	width: 100%;
+	height: 1rem;
+	background: rgb(226,226,226);
+	font-size: 0.3rem;
+	line-height: 1rem;
+	text-align: center;
+	color: #000;
+}
+
+.ordering{
+	width: 100%;
+	height: 1.3rem;
+	/*background: green;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ordering>div{
+	width: 1.72rem;
+	height: 0.64rem;
+	line-height: 0.64rem;
+	border-radius: 0.32rem;
+	font-size: 0.3rem;
+	color: rgba(0,0,0,.4);
+	text-align: center;
+	/*background: yellow;*/
+	margin: 0 0.1rem;
+}
+
+.ordering .left{
+	background: linear-gradient(to right, rgb(207,58,245), rgb(238,62,186));
+	color: #fff;
+}
+
+.ordering .right{
+	background: rgba(0,0,0,.2);
+}
+
+
+
+
+
+
+
+
+.food-info{
+	width: 100%;
+	height: 10rem;
+	/*padding-bottom: 1rem;*/
+	/*background: yellowgreen;*/
+}
+
+.food-info>div{
+	float: left;
+}
+
+.food-type{
+	float: left;
+	width: 1.75rem;
+	height: 9rem;
+	background: rgba(0,0,0,.75);
+	overflow: auto;
+}
+
+.food-type::-webkit-scrollbar{
+	width: 0;
+}
+
+.food-type .item{
+	margin: 0.2rem auto 0;
+	width: 1.6rem;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	text-align: center;
+	border-radius: 0.28rem;
+	background: #fff;
+	color: rgba(0,0,0,.8);
+	font-size: 0.32rem;
+}
+
+.food-type>div:first-child{
+	margin-top: 0.3rem;
+}
+
+
+.food-list{
+	float: left;
+	width: calc(100% - 2.1rem);
+	/*width: 5.15rem;*/
+	height: 9rem;
+	/*background: greenyellow;*/
+	overflow: auto;
+}
+
+.food-list::-webkit-scrollbar{
+	width: 0;
+}
+
+.food-list>div{
+	margin: 0 auto 0.25rem;
+	width: 4.9rem;
+	height: 1.5rem;
+	background: #fff;
+	/*background: red;*/
+	border-radius: 0.15rem;
+	box-shadow: 0 0 0.05rem 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+}
+
+.food-list .item>div{
+	float: left;
+}
+
+.food-list .left{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 0.15rem 0.25rem auto 0.25rem;
+}
+
+.food-list .left img{
+	width: 100%;
+	height: 100%;
+}
+
+.food-list .mid{
+	font-size: 0.3rem;
+}
+
+.food-list .mid span{
+	display: block;
+	color: #000;
+	margin-top: 0.15rem;
+	margin-bottom: 0.3rem;
+}
+
+.food-list .mid i{
+	font-size: 0.24rem;
+	color: rgba(0,0,0,.7);
+}
+
+.food-list .mid em{
+	font-size: 0.2rem;
+	color: rgb(242,57,131);
+}

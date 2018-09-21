@@ -27,11 +27,59 @@ body{
 	/*padding: 0 0.24rem;*/
 	padding: 0.2rem 0;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 .ord-con .item{
+	margin: 0 auto 0.25rem;
 	width: 7.02rem;
 	height: 1.5rem;
+	background: #fff;
+	/*background: red;*/
+	border-radius: 0.15rem;
+	box-shadow: 0 0 0.05rem 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+}
+
+.ord-con .item>div{
+	float: left;
+}
+
+.ord-con .left{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 0.15rem 0.25rem auto 0.25rem;
+}
+
+.ord-con .left img{
+	width: 100%;
+	height: 100%;
+}
+
+.ord-con .mid{
+	font-size: 0.3rem;
+}
+
+.ord-con .mid span{
+	display: block;
+	color: #000;
+	margin-top: 0.15rem;
+	margin-bottom: 0.3rem;
+}
+
+.ord-con .mid i{
+	font-size: 0.24rem;
+	color: rgba(0,0,0,.7);
+}
+
+.ord-con .mid em{
+	font-size: 0.2rem;
+	color: rgb(242,57,131);
+}
+
+.ord-con .item{
+	/*width: 7.02rem;
+	height: 1.5rem;*/
 	/*background: red;*/
 	/*background: #fff;*/
 }
