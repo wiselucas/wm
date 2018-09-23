@@ -102,29 +102,19 @@
 	width: 100%;
 	height: 3.6rem;
 	/*background: #6495ED;*/
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.3rem;
 }
 
 .nav-list{
 	width: 100%;
 	height: 100%;
-	padding: 0.4rem 0.25rem;
+	padding: 0.4rem 0.6rem;
 	/*background: red;*/
 	box-sizing: border-box;
 	display: flex;
-	flex-wrap: wrap;
-}
-
-.nav-list>li{
-	width: 1.75rem;
-	height: 1.4rem;
-	/*background: #EE3FBA;*/
-}
-
-.nav-list>li a{
-	display: block;
-	width: 100%;
-	height: 100%;
-	/*background: #00FFFF;*/
+	justify-content: space-between;
 }
 
 .nav-list .iconfont{
@@ -207,18 +197,20 @@
 .pu-con .item1{
 	float: right;
 	height: 100%;
-	width: 50%;
+	width: 3.4rem;
 	background-repeat: no-repeat;
-	background-position: 1.8rem -0.8rem;
+	/*background-position: 1.8rem -0.8rem;*/
+	background-size: 100% 100%;
 	background-image: url(../img/pu-1.png);
 }
 
 .pu-con .item2{
 	float: right;
 	height: 100%;
-	width: 50%;
+	width: 3.4rem;
 	background-repeat: no-repeat;
-	background-position: 1.8rem -0.8rem;
+	/*background-position: 1.8rem -0.8rem;*/
+	background-size: 100% 100%;
 	background-image: url(../img/pu-2.png);
 }
 
@@ -252,15 +244,17 @@
 
 .me-con>div{
 	width: 6.6rem;
+	width: 7rem;
 	height: 2.1rem;
 	/*background: #D03AF5;*/
-	margin-left: 0.24rem;
+	margin: 0 auto;
+	/*margin-left: 0.24rem;*/
 	margin-bottom: 0.2rem;
 	border-radius: 0.1rem;
 	background: #fff;
 	box-shadow: 0 0 0.05rem 0 rgba(0,0,0,0.1);
 	/*overflow: hidden;*/
-	float: left;
+	/*float: left;*/
 }
 
 .me-con .left{
@@ -282,7 +276,8 @@
 	height: 1.88rem;
 	float: left;
 	margin-top: 0.11rem;
-	margin-left: 0.1rem;
+	margin-left: 0.3rem;
+	font-size: 0.3rem;
 }
 
 .me-con .right h3{
@@ -293,8 +288,8 @@
 
 .me-con .split{
 	width: 2.65rem;
-	border-top: 0.06rem dotted rgba(0, 0, 0, .5);
-	margin: 0.2rem 0;
+	border-top: 0.04rem dotted rgba(0, 0, 0, .5);
+	margin: 0.1rem 0;
 }
 
 .me-con .des{
@@ -302,14 +297,21 @@
 	color: rgba(0,0,0,.8);
 }
 
+.me-con .dis{
+	font-size: 0.2rem;
+	color: rgba(0,0,0,.7);
+	margin-top: 0.1rem;
+}
+
 .me-con .redu{
 	display: flex;
-	margin-top: 0.3rem;
+	margin-top: 0.12rem;
 }
 
 .me-con .redu>div{
 	width: 1.2rem;
 	height: 0.26rem;
+	line-height: 0.26rem;
 	border-radius: 0.13rem;
 	border: 0.01rem solid rgb(238,62,186);
 	box-sizing: border-box;

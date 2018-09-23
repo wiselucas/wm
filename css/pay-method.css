@@ -10,10 +10,11 @@
 	width: 100%;
 	width: 0.5rem;
 	height: 1.3rem;
-	line-height: 1.3rem;
+	line-height: 0.9rem;
 	color: #fff;
 	font-size: 0.3rem;
 	padding-left: 0.24rem;
+	padding-top: 0.4rem;
 	box-sizing: border-box;
 }
 
@@ -29,7 +30,7 @@
 
 .pay-amount{
 	width: 100%;	
-	height: 1.3rem;
+	height: 1.4rem;
 	padding: 0 0.24rem;
 	box-sizing: border-box;
 	/*background: red;*/
@@ -43,10 +44,35 @@
 	font-size: 0.3rem;
 }
 
+.pay-amount .top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pay-amount .top .left{
+	display: flex;
+	align-items: center;
+}
+
+.pay-amount .circle{
+	display: inline-block;
+	float: left;
+	margin-right: 0.08rem;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: rgb(255,43,78);
+}
+
+.pay-amount .circle2{
+	background: rgb(255,191,37);
+}
+
 .pay-amount .top .text{
 	float: left;
 	font-size: 0.24rem;
-	color: rgba(0, 0, 0, .5);
+	color: rgba(0, 0, 0, .6);
 }
 
 .pay-amount .top .price{
@@ -68,6 +94,10 @@
 	text-align: right;
 	font-size: 0;
 	border-bottom: 1px solid rgba(0,0,0,.2);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-bottom: 0.1rem;
 }
 
 .pay-amount .btm *{
@@ -81,9 +111,12 @@
 	height: 0.34rem;
 	border-radius: 0.17rem;
 	background: rgb(207,58,245);
+	background: linear-gradient(to right, rgb(207,58,245), rgb(238,62,186));
 	color: #fff;
 	font-size: 0.18rem;
+	line-height: 0.34rem;
 	padding: 0 0.1rem;
+	text-align: center;
 }
 
 
@@ -125,15 +158,16 @@
 .pay-type .left{
 	width: 0.82rem;
 	height: 0.82rem;
-	/*margin: 0.29rem 0 0 0.31rem;*/
+	line-height: 0.82rem;
+	margin: 0.29rem 0 0 0.31rem;
 	margin-left: 0.31rem;
 	/*background: paleturquoise;*/
 }
 
-/*.pay-type .left img{
+.pay-type .left img{
 	width: 100%;
 	height: 100%;
-}*/
+}
 
 .pay-type .right{
 	margin-top: 0.42rem;
@@ -165,7 +199,7 @@
 	text-align: right;
 }
 
-.pay-con>div{
+.pay-con .item{
 	width: 6.78rem;
 	height: 1.4rem;
 	background: #D03AF5;
@@ -183,14 +217,21 @@
 
 .pay-con .left{
 	width: 0.82rem;
-	height: 100%;
+	height: 0.82rem;
+	border-radius: 0.41rem;
 	line-height: 0.82rem;
-	font-size: 0.82rem;
+	font-size: 0.54rem;
+	color: #fff;
+	margin-top: 0.28rem;
 	margin-left: 0.3rem;
 	margin-right: 0.1rem;
 	text-align: center;
 	box-sizing: border-box;
-	padding-top: 0.24rem;
+	background: linear-gradient(to top, rgb(226,54,128), rgb(251,106,184));
+}
+
+.pay-con .item2 .left{
+	background: linear-gradient(to top, rgb(69,171,252), rgb(136,214,255));
 }
 
 .pay-con .mid{
@@ -204,4 +245,24 @@
 .pay-con .text2{
 	margin-top: 0.1rem;
 	color: rgba(0,0,0,.6);
+}
+
+.pay-con .right{
+	width: 0.58rem;
+	height: 0.34rem;
+	border-radius: 0.17rem;
+	background: linear-gradient(to top, rgb(226,54,128), rgb(251,106,184));
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.34rem;
+	text-align: center;
+}
+
+.pay-con .item .right{
+	float: right;
+	margin: 0.52rem 0.25rem 0 0;
+}
+
+.pay-con .item2 .right{
+	background: linear-gradient(to top, rgb(69,171,252), rgb(136,214,255));
 }

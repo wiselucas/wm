@@ -13,6 +13,35 @@
 	position: relative;
 }
 
+.login{
+	position: absolute;
+	top: 0.6rem;
+	right: 0.3rem;
+	width: 0.8rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    background: rgba(0,0,0,.4);
+    color: rgba(255,255,255,.7);
+    font-size: 0.24rem;
+}
+
+.logout{
+	position: absolute;
+	position: absolute;
+	top: 0.6rem;
+	right: 1.4rem;
+	width: 0.8rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    background: rgba(0,0,0,.4);
+    color: rgba(255,255,255,.7);
+    font-size: 0.24rem;
+}
+
 .avator{
 	width: 100%;
 	height: 1.46rem;
@@ -29,6 +58,11 @@
 	border-radius: 50%;
 	background: #fff;
 	overflow: hidden;
+}
+
+.ava-img img{
+	width: 100%;
+	height: 100%;
 }
 
 .name{
@@ -101,6 +135,7 @@
 	/*height: 5rem;*/
 	/*background: red;*/
 	margin-top: 0.84rem;
+	padding-bottom: 1rem;
 }
 
 .option .item{
@@ -154,6 +189,54 @@
 	text-align: center;
 	line-height: 0.4rem;
 	color: #fff;
+}
+
+.option .item2 .iconfont{
+	color: rgba(243,67,69,0.8);
+}
+
+.option .item2 .rit{
+	background: rgb(253,70,72);
+}
+
+.option .item3 .iconfont{
+	color: rgb(114,121,255);
+}
+
+.option .item3 .rit{
+	width: 0.84rem;
+	height: 0.52rem;
+	border-radius: 0.26rem;
+	background: rgb(157,162,255);
+	position: relative;
+}
+
+.option .item3 .rit .switch{
+	position: absolute;
+	left: 0.04rem;
+	top: 0.04rem;
+	width: 0.44rem;
+	height: 0.44rem;
+	border-radius: 50%;
+	background: #fff;
+}
+
+.option .item4 .iconfont{
+	color: rgb(255,193,35);
+}
+
+.option .item4 .rit-4{
+	float: right;
+	width: 0.72rem;
+	height: 0.36rem;
+	line-height: 0.38rem;
+	margin: 0.12rem 0;
+	font-size: 0;
+}
+
+.option .item4 .rit-4 img{
+	width: 100%;
+	height: 100%;
 }
 
 .footer{
